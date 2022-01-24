@@ -1,8 +1,11 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css'
+import { Login } from './Login';
 
 function App() {
-  return (
+  return <Login/>
+  /* (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
@@ -19,7 +22,7 @@ function App() {
         </a>
       </header>
     </div>
-  );
+  ); */
 }
 
 export default App;
